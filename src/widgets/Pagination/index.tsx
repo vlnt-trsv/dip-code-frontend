@@ -47,6 +47,7 @@ export const PaginationWidget = ({
         getItemLabel={(item) => item.label}
         onChange={(item) => onPerPageChange(item?.value ?? 10)}
         style={{ width: 180 }}
+        getItemValue={(item) => item.value}
       />
     </div>
   )
